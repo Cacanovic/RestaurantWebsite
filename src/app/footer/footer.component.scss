@@ -1,0 +1,113 @@
+.go-reservation {
+  position: fixed;
+  bottom: 0;
+  left: 95px;
+}
+.btn-reservation {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-size: 11px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  letter-spacing: 2px;
+  font-weight:500;
+}
+.btn-reservation:hover {
+  color: #fff;
+  background-color: #bb9a69;
+}
+footer {
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  padding: 45px 0;
+}
+footer .information {
+  line-height: 2;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+}
+footer .information a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration:none;
+}
+footer .information a:hover {
+  color: #bb9a69;
+}
+footer .footer-contacts a {
+  text-decoration:none;
+  font-size: 14px !important;
+  text-transform: none !important;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+footer .footer-navigation{
+  margin-top:55px;
+}
+footer .footer-navigation a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  letter-spacing: 2px;
+  text-decoration:none;
+  line-height:2;
+}
+footer .footer-navigation a:hover {
+  color: #bb9a69;
+}
+footer .form-inline .form-control {
+  border: 1px solid #fff !important;
+  color: #fff;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  letter-spacing: 2px;
+  font-size:12px;
+  height:40px;
+  width: 100%;
+}
+footer .form-inline input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+footer .form-inline input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+
+footer .form-inline input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+
+footer .form-inline input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.btn-newsletter {
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+.btn-newsletter:hover {
+  background-color: #bb9a69;
+  color: #fff;
+}
+.newsletter-section .form-inline{
+  margin-top:40px;
+}

@@ -1,0 +1,331 @@
+
+.heder-section {
+  background: url('../../../assets/pictures/cover1.png');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  position:relative;
+}
+.section-cover-div {
+  max-width: 300px;
+  position: absolute;
+  right: 25vh;
+  bottom: 25vh;
+}
+.section-cover h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  margin: 5px;
+}
+hr.align {
+  height: 1px;
+  background-color: #000;
+  width: 70px;
+  border-top: 1px;
+  margin-left: 0;
+}
+hr.left {
+  margin-left: -40px;
+}
+
+.section-cover p {
+  font-size: 16px;
+  line-height: 2;
+  margin: 15px 0 30px;
+}
+.section-cover a {
+  border: 0 solid #fff;
+  border-bottom: 1px solid #000;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 15px 35px 15px 5px;
+  text-transform: uppercase;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  letter-spacing: 2px;
+}
+.section-cover a:hover {
+  padding-right: 45px;
+  color: #bb9a69;
+  border-color: #bb9a69;
+}
+
+
+.mouse-scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%);
+  border: 1px solid #fff;
+  width: 2px;
+  padding: 5px 10px 30px;
+  height: 0;
+  border-radius: 50px;
+  opacity: 0.75;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 2px;
+  height: 5px;
+  background-color: #fff;
+  animation-duration: 1.5s;
+  animation-name: scroll;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+@keyframes scroll {
+  from {
+    margin-top: 0;
+    opacity: 1;
+  }
+
+  to {
+    margin-top: 15px;
+    opacity: 0;
+  }
+}
+
+.mg-top-150{
+  margin-top:150px;
+}
+.title-par {
+  margin: 25px 0px;
+  font-style: italic;
+  font-family: "Crimson Text", serif !important;
+  
+}
+h5.subtitle-par {
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+}
+p.section-text {
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 15px 0 30px;
+}
+
+.content{
+  margin-top:150px;
+  margin-bottom:40px;
+}
+
+.content .item{
+  margin-top:105px;
+}
+
+.gift-section{
+  margin-top:100px;
+  border:1px solid #000;
+}
+.gift-section .card {
+  border: unset;
+  background-color: #fff;
+  padding: 45px 55px;
+  margin: -10px 50px;
+  position: relative;
+}
+ .heading {
+  font-weight: 400;
+  font-style: italic;
+  color: #000 !important;
+  font-family: "Crimson Text", serif !important
+}
+ .sub-heading {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 1em;
+  color: #000 !important;
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size:15px;
+}
+.quota{
+  position:relative;
+  margin-top:35px;
+  margin-bottom:20px;
+}
+.quota img{
+  position:absolute;
+  top:50%;
+  transform:translate(0,-50%);
+}
+.quota p {
+  margin: 0px;
+  margin-left: 50px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+.btn-voucher {
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-top:15px;
+  text-align:center;
+  color:#000;
+  text-transform:uppercase;
+}
+.btn-voucher:hover{
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.reservation-section {
+  margin-top: 100px;
+}
+.small-par{
+  margin-top:20px;
+  font-size:13px;
+  line-height:1.8;
+  letter-spacing:2px;
+}
+.contact-form{
+  padding:85px 55px;
+}
+.contact-form .form-control {
+  border-radius: 0px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  font-size: 13px;
+  background-color: transparent;
+  font-weight: 500;
+  color:#000;
+}
+.contact-form .form-control:focus{
+  box-shadow:unset;
+}
+.contact-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+  text-transform: uppercase;
+}
+.contact-form .form-check {
+  margin-bottom: 15px;
+  font-weight: 500;
+  padding-left:2.5rem;
+}
+.contact-form .form-check label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.contact-form input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+  text-transform: uppercase;
+}
+
+.contact-form input:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+  text-transform: uppercase;
+}
+.contact-form input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+  text-transform: uppercase;
+}
+.btn-make-reservation {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+.btn-make-reservation:hover{
+  background-color:transparent;
+  color:#000;
+}
+.reservation-part {
+  background: url('../../../assets/pictures/reservation.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+/*check box style*/
+
+.form-check #license-agree{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  cursor:pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border:1px solid #000;
+}
+/* On mouse-over, add a grey background color */
+.form-check:hover input ~ label .checkmark {
+  background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.form-check input:checked ~ label .checkmark {
+  background-color: #000;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.form-check input:checked ~ label .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.form-check label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .contact-form {
+    margin:40px 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .gift-section{
+    border:unset;
+  }
+  .card{
+    padding:0;
+    margin:0;
+  }
+}

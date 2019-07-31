@@ -1,0 +1,42 @@
+.homepage-sidebar {
+  min-height: 100vh;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 40px 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align:right;
+  text-transform:uppercase;
+}
+.close-section{
+  position:absolute;
+  top:30px;
+  right:0;
+  padding:8px 50px 8px 10px;
+}
+.close-x {
+  font-size: 20px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  padding-left: 10px;
+  font-weight: 500;
+}
+.btn-close {
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.btn-close:hover {
+  color: #bb9a69;
+}
+.btn-close:focus {
+  box-shadow:none;
+}
+.close-x:hover{
+  color: #bb9a69;
+  font-size:25px;
+}
